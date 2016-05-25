@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>任务33</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<p>说明：键入提示使用go:表移动，tun lef：表左转90度，tun rig：表右转90度，tun bac：表右转180度</p>
+<div class="content">
+	<ol class="row-ol">
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+		<li>7</li>
+		<li>8</li>
+		<li>9</li>
+		<li>10</li>
+	</ol>
+
+	<ol class="column-ol" id="container">
+		<div id="block"></div>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ol>
+	<input type="text" id="command" placeholder="方向键也可操作" />
+	<button onclick='exportCommand();'>执行</button>
+</div>
+<script src="33.js"></script>
+</body>
+</html>
